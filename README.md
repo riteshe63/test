@@ -46,7 +46,7 @@ You’ll use Apache to serve Nagios’ web interface, so copy the sample Apache 
 
 Nagios is now installed. Let’s install a plugin which will allow Nagios to collect data from various hosts.
 
-## Installing the check-nrpe Plugin
+## Installing the "check_nrpe" Plugin
 
     cd ~
     curl -L -O https://github.com/NagiosEnterprises/nrpe/releases/download/nrpe-3.2.1/nrpe-3.2.1.tar.gz
