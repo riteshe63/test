@@ -1,6 +1,6 @@
 [Nagios Installtion](#nagios-installation)
 
-[Installing the check_nrpe Plugin](#installing-the-check-nrpe-plugin)
+[Installing the check nrpe Plugin](#installing-the-check-nrpe-plugin)
 
 # Nagios Installation
 
