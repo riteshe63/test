@@ -1,6 +1,10 @@
-[Nagios Installtion](#nagios-installation)
-
-[Installing the check_nrpe Plugin](#installing-the-check-nrpe-plugin)
+- [Nagios Installtion](#nagios-installation)
+- [Installing the check_nrpe Plugin](#Installing-the-check-nrpe-plugin)
+- [Installing NPRE on a Host](#installing-npre-on-a-host)
+- [Add a Linux host to Nagios server](#add-a-linux-host-to-nagios-server)
+- [Install Postfix](#install-postfix)
+- [Nagios is in Mail Setup](#nagios-is-in-mail-setup)
+- [Create Custom plugin to Nagios](#create-custom-plugin-to-nagios)
 
 # Nagios Installation
 
@@ -46,7 +50,7 @@ You’ll use Apache to serve Nagios’ web interface, so copy the sample Apache 
 
 Nagios is now installed. Let’s install a plugin which will allow Nagios to collect data from various hosts.
 
-## Installing the "check_nrpe" Plugin
+## Installing the check-nrpe Plugin
 
     cd ~
     curl -L -O https://github.com/NagiosEnterprises/nrpe/releases/download/nrpe-3.2.1/nrpe-3.2.1.tar.gz
@@ -342,7 +346,7 @@ And test if email relays are working:
 
     echo "Tested" | mail -s "Testing Gmail Relay" user@example.net
 
-## Nagios setup
+## Nagios is in Mail Setup 
 
 First define contacts that you wish to notify and their email addresses in:
 
@@ -493,7 +497,7 @@ Restart Nagios Server
 
     systemctl restart nagios.service
 
-**Reference for some links:**
+> **Reference for some links:**
 
 https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/3/en/objectdefinitions.html
 
