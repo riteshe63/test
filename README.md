@@ -1,4 +1,4 @@
-[Nagios Installtion](#nagios-installation)
+[Nagios Installtion](#nagios installation)
 
 [Installing the check_nrpe Plugin](#installing-the-check-nrpe-plugin)
 
